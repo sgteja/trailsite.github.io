@@ -2,12 +2,12 @@
 name: Brittany Chiang
 title: Brittany Chiang | Front End Software Engineer
 description: Design-minded, detail oriented software engineer passionate about combining beautiful code with beautiful design.
-url: http://brittanychiang.com/
+url: https://sgteja.github.io/trailsite.github.io
 baseurl: "https://sgteja.github.io/trailsite.github.io/"
 email: brittany.chiang@gmail.com
-cover: http://brittanychiang.com/v2/img/og.jpg
-logo: http://brittanychiang.com/v2/img/logo-black.png
-resume: http://brittanychiang.com/v2/resume.pdf
+cover: https://sgteja.github.io/trailsite.github.io//img/og.jpg
+logo: https://sgteja.github.io/trailsite.github.io//img/logo-black.png
+resume: https://sgteja.github.io/trailsite.github.io//resume.pdf
 social:
   - title: email
     url: mailto:brittany.chiang@gmail.com
