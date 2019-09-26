@@ -5,9 +5,9 @@ description: Design-minded, detail oriented software engineer passionate about c
 url: http://sgteja.github.io/trailsite.github.io/
 baseurl: ""
 email: gnyanateja@gmail.com
-cover: http://sgteja.hithub.io/trailsite.github.io/img/og.jpg
-logo: http://sgteja.hithub.io/trailsite.github.io/img/logo-black.png
-resume: http://sgteja.hithub.io/trailsite.github.io/resume.pdf
+cover: http://sgteja.github.io/trailsite.github.io/img/og.jpg
+logo: http://sgteja.github.io/trailsite.github.io/img/logo-black.png
+resume: http://sgteja.github.io/trailsite.github.io/resume.pdf
 social:
   - title: email
     url: mailto:gnyanateja@gmail.com
