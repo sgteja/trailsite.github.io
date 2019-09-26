@@ -1,8 +1,8 @@
 {
-  "name": "v2",
-  "author": "Brittany Chiang",
+  "name": "Personal Site",
+  "author": "Gnyana Teja Samudrala",
   "version": "0.0.0",
-  "description": "Personal website of Brittany Chiang",
+  "description": "Personal website of Gnyana Teja Samudrala",
   "main": "gulpfile.js",
   "devDependencies": {
     "babel-preset-es2015": "^6.24.0",
@@ -21,7 +21,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/bchiang7/bchiang7.github.io"
+    "url": "https://github.com/sgteja/sgteja.github.io"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
