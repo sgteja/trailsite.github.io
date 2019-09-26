@@ -1,27 +1,26 @@
 # Site settings
-name: Brittany Chiang
-title: Brittany Chiang | Front End Software Engineer
+name: Gnyana Teja Samudrala
+title: Gnyana Teja Samudrala | Robotics Engineer
 description: Design-minded, detail oriented software engineer passionate about combining beautiful code with beautiful design.
-url: http://brittanychiang.com/
+url: http://sgteja.github.io/
 baseurl: ""
-email: brittany.chiang@gmail.com
-cover: http://brittanychiang.com/v2/img/og.jpg
-logo: http://brittanychiang.com/v2/img/logo-black.png
-resume: http://brittanychiang.com/v2/resume.pdf
+email: gnyanateja@gmail.com
+cover: http://sgteja.hithub.io/trailsite.github.io/img/og.jpg
+logo: http://sgteja.hithub.io/trailsite.github.io/img/logo-black.png
+resume: http://sgteja.hithub.io/trailsite.github.io/resume.pdf
 social:
   - title: email
-    url: mailto:brittany.chiang@gmail.com
-  - title: twitter
-    url: https://twitter.com/bchiang7
+    url: mailto:gnyanateja@gmail.com
+#  - title: twitter
+#   url: https://twitter.com/bchiang7
   - title: instagram
     url: https://instagram.com/bchiang7
-  - title: codepen
-    url: http://codepen.io/bchiang7
+#  - title: codepen
+#    url: http://codepen.io/bchiang7
   - title: github
-    url: https://github.com/bchiang7
+    url: https://github.com/sgteja
   - title: linkedin
-    url: https://www.linkedin.com/in/bchiang7
-
+    url: https://www.linkedin.com/in/gnyana-teja
 # Build settings
 markdown: kramdown
 
