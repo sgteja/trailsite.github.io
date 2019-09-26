@@ -1,11 +1,11 @@
 # Site settings
 name: Gnyana Teja Samudrala
 title: Gnyana Teja Samudrala | Robotics Engineer
-description: Design-minded, detail oriented software engineer passionate about combining beautiful code with beautiful design.
+description: I'm an enthusiast in the field of machine learning and artificial intelligence.
 url: http://sgteja.github.io/
 baseurl: "/trailsite.github.io"
 email: gnyanateja@gmail.com
-cover: http://sgteja.github.io/trailsite.github.io/img/og.jpg
+cover: http://sgteja.github.io/trailsite.github.io/img/bg-intro/GOPRO514.jpg
 logo: http://sgteja.github.io/trailsite.github.io/img/logo-black.png
 resume: http://sgteja.github.io/trailsite.github.io/resume.pdf
 social:
