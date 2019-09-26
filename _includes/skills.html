@@ -29,24 +29,24 @@
           </ul>
         </div> -->
         <div class="flex-item check-wrapper">
-          <div class="programming-wrapper">
+          <div class="tools-wrapper">
             <h2 class="skills-heading">
               <span class="sprite tools"></span>
               <span>Programming languages</span>
             </h2>
             <ul class="list">
-              {% for tool in site.data.skills.tools %}
+              {% for tool in site.data.skills.programming %}
               <li class="list-item"><img class="item-svg" src="img/icons/checkmark.svg" alt="checkmark"/>{{tool.item}}</li>
               {% endfor %}
             </ul>
           </div>
-          <div class="tools-wrapper">
+          <div class="knowledge-wrapper">
             <h2 class="skills-heading">
               <span class="sprite knowledge"></span>
               <span>Technical Software's & Tools</span>
             </h2>
             <ul class="list">
-              {% for thing in site.data.skills.knowledge %}
+              {% for thing in site.data.skills.tools %}
               <li class="list-item"><img class="item-svg" src="img/icons/checkmark.svg" alt="checkmark"/>{{thing.item}}</li>
               {% endfor %}
             </ul>
@@ -54,24 +54,24 @@
         </div>
 
         <div class="flex-item check-wrapper">
-          <div class="electronics-wrapper">
+          <div class="tools-wrapper">
             <h2 class="skills-heading">
               <span class="sprite tools"></span>
               <span>Electronics</span>
             </h2>
             <ul class="list">
-              {% for tool in site.data.skills.tools %}
+              {% for tool in site.data.skills.electronics %}
               <li class="list-item"><img class="item-svg" src="img/icons/checkmark.svg" alt="checkmark"/>{{tool.item}}</li>
               {% endfor %}
             </ul>
           </div>
-          <div class="mechanical-wrapper">
+          <div class="knowledge-wrapper">
             <h2 class="skills-heading">
               <span class="sprite knowledge"></span>
               <span>Mechanical</span>
             </h2>
             <ul class="list">
-              {% for thing in site.data.skills.knowledge %}
+              {% for thing in site.data.skills.mechanical %}
               <li class="list-item"><img class="item-svg" src="img/icons/checkmark.svg" alt="checkmark"/>{{thing.item}}</li>
               {% endfor %}
             </ul>
