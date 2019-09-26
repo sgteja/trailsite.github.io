@@ -1,24 +1,8 @@
-# Personal Website V2 🚀🔥
+# Personal Website 
 
-Hello! Thanks for checking out the repo for my latest portfolio website. This website isn't just my new portfolio, but also a personal project in and of itself. I think I've grown quite a bit as a developer & designer in the past year, so I wanted to create something to showcase some of what I've learned and done.
+Hello! thanks for taking a look at the repo. This is my first professional website made to showcase my projects in one place. The theme and most of the design work is taken from this [repo](https://bchiang7.github.io/v2/).
 
-## Getting started
-- `npm install gulp-cli -g`
-- `npm install`
-- `gem install jekyll sass bundler jekyll-minifier jekyll-sitemap`
-- `gulp serve` to start a dev server
-- `gulp build` for prod
+# Reference
 
-## What I used
-- [Sublime Text 3](https://www.sublimetext.com/3) my ride-or-die
-- [Github Pages](https://pages.github.com/) for easy push-to-deploy hosting
-- [Jekyll](https://jekyllrb.com/) for a static site generator
-- [Sass](http://sass-lang.com/) for less time-consuming and more modular CSS
-- [Bourbon](http://bourbon.io/) for sass mixins
-- [Gulp](http://gulpjs.com/) for an automated and enhanced workflow
-- [Flaticon](http://www.flaticon.com/) for images
-- [Unsplash](https://unsplash.com/) for stock photos
-- [Skrollr.js](https://github.com/Prinzhorn/skrollr) for parallax effects
-- [Formspree](https://formspree.io/) for a simple, sans-PHP contact form
+1. https://bchiang7.github.io/v2/
 
-Let me know what you think!
