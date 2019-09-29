@@ -18,8 +18,8 @@ tools:
   - item: Solidworks
   - item: ANSYS
   - item: Latex
-  - item: Machine Learning
-  - item: Computer Vision
+  - item: MachineLearning
+  - item: ComputerVision
 
 electronics:
   - item: Arduino
