@@ -12,8 +12,7 @@
           </h2>
           <ul>
             {% for dev in site.data.skills.tools %}
-            <!-- <li class="dev-item">{{dev.item}}</li> -->
-            <li class="list-item"><img class="item-svg" src="img/icons/ux-design.png" alt="ux-design"/>{{tool.item}}</li>
+            <li class="dev-item">{{dev.item}}</li>
             {% endfor %}
           </ul>
         </div>
@@ -33,11 +32,11 @@
           <div class="tools-wrapper">
             <h2 class="skills-heading">
               <span class="sprite tools"></span>
-              <span>Programming</span>
+              <span>Programming languages</span>
             </h2>
             <ul class="list">
               {% for tool in site.data.skills.programming %}
-              <li class="list-item"><img class="item-img" src="img/icons/code.png" alt="code"/>{{tool.item}}</li>
+              <li class="list-item"><img class="item-svg" src="img/icons/checkmark.svg" alt="checkmark"/>{{tool.item}}</li>
               {% endfor %}
             </ul>
           </div>
@@ -60,12 +59,12 @@
         <div class="flex-item check-wrapper">
           <div class="tools-wrapper">
             <h2 class="skills-heading">
-              <span class="sprite tools"></span>
+              <span class="sprite electronics"></span>
               <span>Electronics</span>
             </h2>
             <ul class="list">
               {% for tool in site.data.skills.electronics %}
-              <li class="list-item"><img class="item-img" src="img/icons/light-bulb.png" alt="light-bulb"/>{{thing.item}}</li>
+              <li class="list-item"><img class="item-svg" src="img/icons/checkmark.svg" alt="checkmark"/>{{tool.item}}</li>
               {% endfor %}
             </ul>
           </div>
@@ -76,7 +75,7 @@
             </h2>
             <ul class="list">
               {% for thing in site.data.skills.mechanical %}
-              <li class="list-item"><img class="item-img" src="img/icons/settings.png" alt="settings"/>{{tool.item}}</li>
+              <li class="list-item"><img class="item-svg" src="img/icons/checkmark.svg" alt="checkmark"/>{{thing.item}}</li>
               {% endfor %}
             </ul>
           </div>
