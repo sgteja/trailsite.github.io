@@ -4,7 +4,7 @@
       sprite: webdev
       text: Through this course have learnt mathematical pattern analysis and recognition. Emphasis is given to parametric and non-parametric statistical pattern recognition methods and clustering. Worked on projects relating to the application of image recognition.
 
-    - heading: Classical and Deep Learning Approaches for Computer Vision
+    - heading: Deep Learning Approaches for Computer Vision
       sprite: ui
       text: This course covered image formation, features, segmentation, stitching, recognition, motion estimation and 3D point clouds. The main theme of the course is to showcase how to model classical 3D geometry problems using Deep Learning. Various projects were carried out throughout the course based on both classical and deep learning approaches.
 
