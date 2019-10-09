@@ -1,7 +1,7 @@
 - title: Structure from Motion (SFM)
-  # demo: https://github.com/crowddj/crowddj-react
+  demo: http://sgteja.github.io/trailsite.github.io/reports/SFM_classical.pdf
   # code: https://github.com/crowddj/crowddj-react
-  description: The project is about reconstructing a whole 3D scene from a set of images taken by a camera at different locations and poses. The problem here is often referred as Structure from Motion (SFM). 
+  description: The project is about reconstructing a whole 3D scene from a set of images taken by a camera at different locations and poses. The problem here is often referred as Structure from Motion (SFM). Our report stood second in the class. 
   img: SFM_classical
   used:
     - thing: Python
