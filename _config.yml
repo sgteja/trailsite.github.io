@@ -6,7 +6,7 @@ url: http://sgteja.github.io/
 baseurl: "/trailsite.github.io"
 email: gnyanateja@gmail.com
 cover: http://sgteja.github.io/trailsite.github.io/img/bg-intro/GOPR0514.jpg
-logo: http://sgteja.github.io/trailsite.github.io/img/logo-black.png
+logo: http://sgteja.github.io/trailsite.github.io/img/logo-sgt-black.png
 resume: http://sgteja.github.io/trailsite.github.io/resume.pdf
 social:
   - title: email
@@ -14,7 +14,7 @@ social:
 #  - title: twitter
 #   url: https://twitter.com/bchiang7
   - title: instagram
-    url: https://instagram.com/bchiang7
+    url: https://instagram.com/gnyanateja
 #  - title: codepen
 #    url: http://codepen.io/bchiang7
   - title: github
