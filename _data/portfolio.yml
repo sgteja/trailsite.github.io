@@ -1,7 +1,7 @@
 - title: Structure from Motion (SFM)
   demo: http://sgteja.github.io/trailsite.github.io/reports/SFM_classical.pdf
   # code: https://github.com/crowddj/crowddj-react
-  description: The project is about reconstructing a whole 3D scene from a set of images taken by a camera at different locations and poses. The problem here is often referred as Structure from Motion (SFM). Our <a href="https://cmsc733.github.io/2019/proj/p3-results/" target="_blank">report</a> stood second in the class. 
+  description: The project is about reconstructing a whole 3D scene and simultaneously obtaining camera poses from a set of images taken by a monocular camera at different locations and poses of a scene. The problem here is often referred as Structure from Motion (SFM). Our <a href="https://cmsc733.github.io/2019/proj/p3-results/" target="_blank">report</a> stood second in the class. 
   img: SFM_classical
   used:
     - thing: Python
@@ -10,6 +10,18 @@
     - thing: Nonlinear Triangulation
     - thing: Perspective-n-Point
     - thing: Bundle adjustment
+
+- title: Learning SfM, an Unsupervised way
+  demo:  http://sgteja.github.io/trailsite.github.io/reports/SFM_deep.pdf
+  description: An unsupervised learning approach for predicting the monocular depth and ego-motion from the video sequences. We try to improve the end-to-end learning approach presented in href. In contrast to original SfMLearner our training data is limited to a subset of the original KITTI dataset. We used ResNet architecture for depth estimation, with SSIM and forward-backward consistency loss which is adapted from href. The evaluations and comparision show the effectiveness of our approach, which improves the abs_rel depth metric of SfMLearner by about 18%. 
+  img: SFM_deep
+  used:
+    - thing: Python
+    - thing: Tensor-Flow
+    - thing: SFMLearner
+    - thing: KITTI dataset
+    - thing: ResNet arhitecture
+    - thing: Unsupervised Learning
 
 # - title: Weather Widget
 #   demo: http://quiet-dusk-89245.herokuapp.com/
