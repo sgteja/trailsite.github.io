@@ -13,7 +13,7 @@
 
 - title: Learning SfM, an Unsupervised way
   demo:  http://sgteja.github.io/trailsite.github.io/reports/SFM_deep.pdf
-  description: An unsupervised learning approach for predicting the monocular depth and ego-motion from the video sequences. We try to improve the end-to-end learning approach presented in href. In contrast to original SfMLearner our training data is limited to a subset of the original KITTI dataset. We used ResNet architecture for depth estimation, with SSIM and forward-backward consistency loss which is adapted from href. The evaluations and comparision show the effectiveness of our approach, which improves the abs_rel depth metric of SfMLearner by about 18%. 
+  description: An unsupervised learning approach for predicting the monocular depth and ego-motion from the video sequences. We try to improve the end-to-end learning approach presented in <a href="https://ai.google/research/pubs/pub46023/" target="_blank">SfMLearner</a>. In contrast to original SfMLearner our training data is limited to a subset of the original KITTI dataset. We used ResNet architecture for depth estimation, with SSIM and forward-backward consistency loss which is adapted from this paper <a href="https://arxiv.org/abs/1803.02276" target="_blank">GeoNet</a>. The evaluations and comparision show the effectiveness of our approach, which improves the abs_rel depth metric of SfMLearner by about 18%. 
   img: SFM_deep
   used:
     - thing: Python
@@ -23,7 +23,7 @@
     - thing: ResNet arhitecture
     - thing: Unsupervised Learning
 
-# - title: Weather Widget
+# - title: Weather Widget  
 #   demo: http://quiet-dusk-89245.herokuapp.com/
 #   code: https://github.com/bchiang7/DemoWebApp
 #   description: A simple weather app I made at HubSpot's Fall 2016 Web App Workshop utilizing Node.js, Express, and Heroku. I used the OpenWeatherMap API to get weather and forecast data, and then used the current city's coordinates to create a map background that reflected the current city using the Google Maps API.
