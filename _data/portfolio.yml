@@ -2,7 +2,7 @@
   # demo: https://github.com/crowddj/crowddj-react
   # code: https://github.com/crowddj/crowddj-react
   description: The project is about reconstructing a whole 3D scene from a set of images taken by a camera at different locations and poses. The problem here is often referred as Structure from Motion (SFM). 
-  img: crowddj
+  img: SFM_classical
   used:
     - thing: Python
     - thing: RANSAC
