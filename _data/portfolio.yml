@@ -1,10 +1,11 @@
 - title: Structure from Motion (SFM)
   demo: http://sgteja.github.io/trailsite.github.io/reports/SFM_classical.pdf
   # code: https://github.com/crowddj/crowddj-react
-  description: The project is about reconstructing a whole 3D scene and simultaneously obtaining camera poses from a set of images taken by a monocular camera at different locations and poses of a scene. The problem here is often referred as Structure from Motion (SFM). Our <a href="https://cmsc733.github.io/2019/proj/p3-results/" target="_blank">report</a> stood second in the class. 
+  description: The project is about reconstructing a whole 3D scene and simultaneously obtaining camera poses from a set of images taken by a monocular camera at different locations and poses of a scene. The problem here is often referred as Structure from Motion (SFM).
   img: SFM_classical
   used:
     - thing: Python
+    - thing: OpenCV
     - thing: RANSAC
     - thing: Fundamental and Essential Matrix
     - thing: Nonlinear Triangulation
@@ -18,10 +19,23 @@
   used:
     - thing: Python
     - thing: Tensor-Flow
+    - thing: OpenCV
     - thing: SFMLearner
     - thing: KITTI dataset
     - thing: ResNet arhitecture
     - thing: Unsupervised Learning
+
+- title: Face Swap
+  demo: http://sgteja.github.io/trailsite.github.io/reports/FaceSwap.pdf
+  description: An end-to-end pipeline of swapping two faces in a video was performed by using both classical (Dlib library) and deep-learning (<a href="https://arxiv.org/abs/1803.07835" target="_blank">PRNet/a>) methods for getting facial fiducials. The Face Swap was performed in two scenarios one being between two faces in the same video and the other a face in a video with a face in a given image. The results can be seen in this <a href="https://drive.google.com/drive/folders/1TWO6Hed_34k3yZWGM-GOuf4xCKWST9Er?usp=sharing" target="_blank">folder</a>.
+  img: FaceSwap
+  used:
+    - thing: Python
+    - thing: Tensor-Flow
+    - thing: Dlib library
+    - thing: OpenCV
+    - thing: Delaunay Triangulation
+    - thing: Thin Plate Spine
 
 # - title: Weather Widget  
 #   demo: http://quiet-dusk-89245.herokuapp.com/
