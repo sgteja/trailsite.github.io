@@ -37,7 +37,17 @@
     - thing: Delaunay Triangulation
     - thing: Thin Plate Spine
 
-# - title: 
+- title: Panorama Stitching
+  demo: http://sgteja.github.io/trailsite.github.io/reports/Pano.pdf
+  description: In this project two or more images are stitched together into one seamless panorama image. The estimation of homography between the images was done in both classical (harris corners, RANSAC) and deep-learning methods (<a href="https://arxiv.org/pdf/1606.03798.pdf" target="_blank">HomographyNet</a>). The deep-learning approach had both supervised (HomographyNet) and <a href="https://arxiv.org/abs/1709.03966" target="_blank">unsupervised</a> methods. But the deep-learning methods were able to provide good results on the synthetic data but not between two images to be stitched. So we went ahead with stitching of images using classical approach.
+  img: Pano
+  used:
+    - thing: Python
+    - thing: Tensor-Flow
+    - thing: OpenCV
+    - thing: RANSAC
+    - thing: Harris corner
+    - thing: Homography estimation
 # - title: Weather Widget  
 #   demo: http://quiet-dusk-89245.herokuapp.com/
 #   code: https://github.com/bchiang7/DemoWebApp
