@@ -48,8 +48,19 @@
     - thing: RANSAC
     - thing: Harris corner
     - thing: Homography estimation
+
+- title: Lane Detection
+  demo: http://sgteja.github.io/trailsite.github.io/reports/LaneDetection.pdf
+  description: A simple Lane Detection on a video sequence, taken from a moving car. An algorithm was designed to detect lanes on the road, as well as estimate the road curvature to predict the turns performed by the car. The results are presented in these <a href="https://drive.google.com/open?id=1kwCBzWDV0Uqmww-n54ch6un3r8DlcdMQ" target="_blank">videos</a>.
+  img: LaneDetection
+  used:
+    - thing: Python
+    - thing: OpenCV
+    - thing: Homography
+    - thing: Histogram
+    - thing: Sobel filter
 # - title: Weather Widget  
-#   demo: http://quiet-dusk-89245.herokuapp.com/
+#    demo: http://quiet-dusk-89245.herokuapp.com/
 #   code: https://github.com/bchiang7/DemoWebApp
 #   description: A simple weather app I made at HubSpot's Fall 2016 Web App Workshop utilizing Node.js, Express, and Heroku. I used the OpenWeatherMap API to get weather and forecast data, and then used the current city's coordinates to create a map background that reflected the current city using the Google Maps API.
 #   img: weather
