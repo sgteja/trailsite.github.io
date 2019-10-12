@@ -59,6 +59,19 @@
     - thing: Homography
     - thing: Histogram
     - thing: Sobel filter
+
+- title: Visual Odometry
+  demo: http://sgteja.github.io/trailsite.github.io/reports/VisualOdometry.pdf
+  description: The input of frames of a car moving around were taken, by using two successive frames we generate a plot of the camera trajectory i.e the path the car has taken. Non-linear optimizations were performed to get the right pose of the camera. The input videos were taken from the Oxford dataset. 
+  img: VisualOdometry
+  used: 
+    - thing: Python
+    - thing: OpenCV
+    - thing: RANSAC
+    - thing: Essential Matrix
+    - thing: Triangulation
+    - thing: Perspective-n-Point
+
 # - title: Weather Widget  
 #    demo: http://quiet-dusk-89245.herokuapp.com/
 #   code: https://github.com/bchiang7/DemoWebApp
