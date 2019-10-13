@@ -72,6 +72,16 @@
     - thing: Triangulation
     - thing: Perspective-n-Point
 
+- title: Traffic Sign Recognition
+  demo: http://sgteja.github.io/trailsite.github.io/reports/TrafficSignRecognition.pdf
+  description: Traffic sign detection and recognition was done in this project. In detection stage a pipeline was made to extract the possible candidates which contain the traffic sign. And the other part was to classify correctly the detected signals, which was done by using SVM (Support Vector Machine). The input was a video of a car moving and the output was a <a href="https://drive.google.com/open?id=1gte9bEAsReCmg1wpBvpFJU3te3nLWyR-" target="_blank">video</a>. in which the signs were detected and labelled accordingly. The SVM was able to classify 62 signs provided correctly with an accuracy of 99.76% on the test data.  
+  img: TrafficSignRecognition
+  used: 
+    - thing: Python
+    - thing: OpenCV
+    - thing: HOG
+    - thing: SVM
+
 # - title: Weather Widget  
 #    demo: http://quiet-dusk-89245.herokuapp.com/
 #   code: https://github.com/bchiang7/DemoWebApp
