@@ -3,11 +3,11 @@ name: Gnyana Teja Samudrala
 title: Gnyana Teja Samudrala | Robotics Engineer
 description:  I'm an enthusiast in the field of machine learning and artificial intelligence.
 url: http://sgteja.github.io/
-baseurl: "/trailsite.github.io"
+baseurl: ""
 email: gnyanateja@gmail.com
-cover: http://sgteja.github.io/trailsite.github.io/img/bg-intro/GOPR0514.jpg
-logo: http://sgteja.github.io/trailsite.github.io/img/logo-black.png
-resume: http://sgteja.github.io/trailsite.github.io/resume.pdf
+cover: http://sgteja.github.io/img/bg-intro/GOPR0514.jpg
+logo: http://sgteja.github.io/img/logo-black.png
+resume: http://sgteja.github.io/resume.pdf
 social:
   - title: email
     url: mailto:gnyanateja@gmail.com
