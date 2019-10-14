@@ -6,16 +6,16 @@
   title: About
   number: 1
 
-- section: services
-  title: What I Do
+- section: experience
+  title: Experience
   number: 2
 
 - section: skills
   title: Skills
   number: 3
 
-- section: experience
-  title: Experience
+- section: services
+  title: Course work
   number: 4
 
 - section: portfolio
