@@ -22,7 +22,9 @@
           <div class="description-title-container">
             <h2 class="description-title">{{project.title}}</h2>
             <div class="description-buttons">
+              {% if project.demo %}
               <a href="{{project.demo}}" target="_blank">Report</a>
+              {% endif %}
               {% if project.code %}
               <a href="{{project.code}}" target="_blank">Code</a>
               {% endif %}

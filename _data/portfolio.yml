@@ -82,6 +82,16 @@
     - thing: HOG
     - thing: SVM
 
+- title: Path Planning 
+  code: https://github.com/sgteja/Path-Planning
+  description: Implemented the most popular path planning algorithms used in robotics A-Star, Dijkstra and simple Breadth First Search. Also the picture is from the <a href="https://www.youtube.com/watch?v=ci5iAQYvzLE" target="_blank">implementation</a> of A-Star algorithm for differential drive to find the path that the turtle bot has to traverse in order to reach the goal position avoiding the obstacles.
+  img: PathPlanning
+  used: 
+    - thing: Python
+    - thing: Gazebo
+    - thing: ROS 
+    - thing: A-Star
+    - thing: Dijkstra
 # - title: Weather Widget  
 #    demo: http://quiet-dusk-89245.herokuapp.com/
 #   code: https://github.com/bchiang7/DemoWebApp
