@@ -2,18 +2,18 @@
   services:
     - heading: Statistical Pattern Recognition
       sprite: webdev
-      text: Through this course have learnt mathematical pattern analysis and recognition. Emphasis is given to parametric and non-parametric statistical pattern recognition methods and clustering. Worked on projects relating to the application of image recognition.
+      text: Through this course, I’ve have learned the recognition and analysis of mathematical patterns. This course emphasis on parametric and non-parametric statistical pattern recognition methods and clustering. My academic projects for this course work focused on applications of image recognition.
 
     - heading: Deep Learning Approaches for Computer Vision
       sprite: ui
-      text: This course covered image formation, features, segmentation, stitching, recognition, motion estimation and 3D point clouds. The main theme of the course is to showcase how to model classical 3D geometry problems using Deep Learning. Various projects were carried out throughout the course based on both classical and deep learning approaches.
+      text: Through this course, I learned image formation, features, segmentation, stitching, recognition, motion estimation, and 3D point clouds. The coursework showcased how to model classical 3D geometrical problems using Deep Learning. Various projects were carried out throughout the course based on both conventional and deep learning approaches.
 
 - row: row2
   services:
     - heading: Robot Modelling 
       sprite: xd
-      text: Focused on modeling of manipulators based on serial mechanisms. Studied the cocepts related to kinematics, inverse kinematics, and Jacobians. Also learned Eulerian and Lagrangian Dynamics. Used simulation softwares such as ROS and VREP for projects.
+      text: Robot Modelling focused on the modeling of manipulators based on serial mechanisms. I studied the concepts related to kinematics, inverse kinematics, and Jacobians. I also learned Eulerian and Lagrangian Dynamics. I was elated to use simulation software such as ROS and VREP for academic projects.
 
     - heading: Rehabilitation Robotics
       sprite: wit
-      text: This provided an intorduction to a field of robotics dedicated to improving the lives of people with disabilities. The course considers not only engineering design and development, but also human factors that make some innovative technologies successful and other commercial failures. The sensing, actuation, and control principles deployed in various rehabilitation robotics is discussed.
+      text: Rehabilitation Robotics provided an introduction to a field of robotics, that is dedicated to improving the lives of people with disabilities. The course considers not only engineering design and development but also human factors that make some innovative technologies successful and improvise in improving other commercial failures. Sensing, actuation, and control principles deployed in various rehabilitation robotics were also covered in the coursework.
