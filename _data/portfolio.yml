@@ -14,7 +14,7 @@
 
 - title: Learning SfM, an Unsupervised way
   demo:  http://sgteja.github.io/reports/SFM_deep.pdf
-  description: An unsupervised learning approach for predicting the monocular depth and ego-motion from the video sequences. I improved the end-to-end learning approach presented in <a href="https://ai.google/research/pubs/pub46023/" target="_blank">SfMLearner</a>. In contrast to the original SfMLearner, our training data was limited to a subset of the original KITTI dataset. I used ResNet architecture for depth estimation, with SSIM and forward-backward consistency loss, which was adapted from <a href="https://arxiv.org/abs/1803.02276" target="_blank">GeoNet</a>.. The evaluations and comparison showed the effectiveness of my approach, which improved the abs_rel depth metric of SfMLearner by 18%.
+  description: An unsupervised learning approach for predicting the monocular depth and ego-motion from the video sequences. I improved the end-to-end learning approach presented in <a href="https://ai.google/research/pubs/pub46023/" target="_blank">SfMLearner</a>. In contrast to the original SfMLearner, our training data was limited to a subset of the original KITTI dataset. I used ResNet architecture for depth estimation, with SSIM and forward-backward consistency loss, which is from <a href="https://arxiv.org/abs/1803.02276" target="_blank">GeoNet</a>. The evaluations and comparison showed the effectiveness of my approach, which improved the abs_rel depth metric of SfMLearner by 18%.
   img: SFM_deep
   used:
     - thing: Python
@@ -27,7 +27,7 @@
 
 - title: Face Swap
   demo: http://sgteja.github.io/reports/FaceSwap.pdf
-  description: An end-to-end pipeline of swapping two faces in a video was performed by using both classical (Dlib library) and deep-learning (<a href="https://arxiv.org/abs/1803.07835" target="_blank">PRNet</a>) methods for getting facial fiducials. The Face Swap was shown in two scenarios, first between two faces in the same video and in second, a face in a video with a face in from given image. The resulting videos can be seen in this <a href="https://drive.google.com/drive/folders/1TWO6Hed_34k3yZWGM-GOuf4xCKWST9Er?usp=sharing" target="_blank">folder</a>.
+  description: An end-to-end pipeline of swapping two faces in a video, by using both classical (Dlib library) and deep-learning (<a href="https://arxiv.org/abs/1803.07835" target="_blank">PRNet</a>) methods for getting facial fiducials. The Face Swap in two scenarios is shown, first between two faces in the same video and in second, a face in a video with a face in from given image. The resulting videos can be viewed <a href="https://drive.google.com/drive/folders/1TWO6Hed_34k3yZWGM-GOuf4xCKWST9Er?usp=sharing" target="_blank">here</a>.
   img: FaceSwap
   used:
     - thing: Python
@@ -39,7 +39,7 @@
 
 - title: Panorama Stitching
   demo: http://sgteja.github.io/reports/Pano.pdf
-  description: In this project, two or more images were stitched together into one seamless panorama image. The estimation of homography between the pictures was done in both classical (Harris corners, RANSAC) and deep-learning methods (<a href="https://arxiv.org/pdf/1606.03798.pdf" target="_blank">HomographyNet</a>). The deep-learning approach had both supervised (HomographyNet) and <a href="https://arxiv.org/abs/1709.03966" target="_blank">unsupervised</a> methods. Although, the deep-learning techniques were able to provide good results on the synthetic data but not between two images to be stitched. Hence, I performed the stitching of images using the classical approach.
+  description: In this project, two or more images were stitched together into one seamless panorama image. The estimation of homography between the pictures performed in both classical (Harris corners, RANSAC) and deep-learning methods (<a href="https://arxiv.org/pdf/1606.03798.pdf" target="_blank">HomographyNet</a>). The deep-learning approach had both supervised (HomographyNet) and <a href="https://arxiv.org/abs/1709.03966" target="_blank">unsupervised</a> methods. Although, the deep-learning techniques were able to provide satisfactory results on the synthetic data but not between two images to be stitched. Hence, I performed the stitching of images using the classical approach.
   img: Pano
   used:
     - thing: Python
@@ -51,7 +51,7 @@
 
 - title: Lane Detection
   demo: http://sgteja.github.io/reports/LaneDetection.pdf
-  description: Lane Detection was performed on a video sequence taken from a moving car. An algorithm was designed to detect lanes on the road and to estimate the road curvature to predict the turns to be made. The results are presented in these <a href="https://drive.google.com/open?id=1kwCBzWDV0Uqmww-n54ch6un3r8DlcdMQ" target="_blank">videos</a>.
+  description: Lane Detection on a video sequence taken from a moving car. An algorithm was designed to detect lanes on the road and to estimate the road curvature to predict the turns made. The results are in these <a href="https://drive.google.com/open?id=1kwCBzWDV0Uqmww-n54ch6un3r8DlcdMQ" target="_blank">videos</a>.
   img: LaneDetection
   used:
     - thing: Python
@@ -62,7 +62,7 @@
 
 - title: Visual Odometry
   demo: http://sgteja.github.io/reports/VisualOdometry.pdf
-  description: In Visual Odometry, by utilizing successive frames of a car’s movement, I generated a plot of the camera’s trajectory, i.e., the path taken by the vehicle. Non-linear optimizations were performed to achieve the right pose of the camera. The input videos were taken from the Oxford dataset.
+  description: In Visual Odometry, by utilizing successive frames of a car's movement, I generated a plot of the camera's trajectory, i.e., the path taken by the vehicle. Non-linear optimizations were performed to achieve the right pose of the camera. The input videos are from the Oxford dataset.
   img: VisualOdometry
   used: 
     - thing: Python
@@ -74,7 +74,7 @@
 
 - title: Traffic Sign Recognition
   demo: http://sgteja.github.io/reports/TrafficSignDetection.pdf
-  description: Detection and Recognition of traffic signs were performed in this project. In the detection stage, a pipeline was made to extract the possible candidates that contained the traffic sign. And the other part was to correctly classify the detected signals using SVM (Support Vector Machine). A video of a moving car was converted into the <a href="https://drive.google.com/open?id=1gte9bEAsReCmg1wpBvpFJU3te3nLWyR-" target="_blank">video</a>, in which the signs were identified and labeled accordingly. The SVM was able to classify 62 signs provided correctly with an accuracy of 99.76% on the test data.
+  description: Detection and recognition of the traffic signs are carried out in this project. In the detection stage, a pipeline was made to extract the possible candidates that contained the traffic sign. And the other part was to correctly classify the detected signals using SVM (Support Vector Machine). A video of a moving car converted into the <a href="https://drive.google.com/open?id=1gte9bEAsReCmg1wpBvpFJU3te3nLWyR-" target="_blank">output</a>, in which the signs are identified and labeled accordingly. The SVM was able to classify 62 signs provided correctly with an accuracy of 99.76% on the test data.
   img: TrafficSignDetection
   used: 
     - thing: Python
