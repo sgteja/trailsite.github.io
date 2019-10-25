@@ -258,7 +258,7 @@ ul {
     visibility: visible;
     opacity: 50;
     transition: visibility 0s, opacity 0.5s ease; }
-  @media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 1480px) {
     #dot-nav {
       display: none; } }
   #dot-nav .dot-container {
@@ -316,7 +316,7 @@ ul {
   z-index: 100;
   display: none;
   transition: opacity 0.25s ease; }
-  @media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 1480px) {
     #toggle {
       display: block; } }
   #toggle:hover, #toggle:focus {
@@ -357,7 +357,7 @@ ul {
   overflow: hidden;
   z-index: 10;
   transition: all 0.3s ease; }
-  @media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 1480px) {
     .overlay.open {
       height: 100%;
       z-index: 10;
@@ -751,12 +751,12 @@ ul {
 #services-section .service-row {
   width: 100%;
   height: 50%; }
-  @media only screen and (max-width: 660px) {
+  @media only screen and (max-width: 800px) {
     #services-section .service-row {
       height: auto; } }
   #services-section .service-row:nth-of-type(odd) {
     border-bottom: 1px solid rgba(242, 242, 242, 0.3); }
-    @media only screen and (max-width: 660px) {
+    @media only screen and (max-width: 800px) {
       #services-section .service-row:nth-of-type(odd) {
         border: none; } }
   #services-section .service-row:nth-of-type(even) .service-column {
@@ -772,7 +772,7 @@ ul {
     padding: 20px;
     overflow: hidden;
     white-space: nowrap; }
-    @media only screen and (max-width: 660px) {
+    @media only screen and (max-width: 800px) {
       #services-section .service-row .service-column {
         display: block;
         width: 100%;
@@ -782,7 +782,7 @@ ul {
         padding: 20px 0; } }
     #services-section .service-row .service-column:nth-of-type(even) {
       border-left: 1px solid rgba(242, 242, 242, 0.3); }
-      @media only screen and (max-width: 660px) {
+      @media only screen and (max-width: 800px) {
         #services-section .service-row .service-column:nth-of-type(even) {
           border: none; } }
     #services-section .service-row .service-column .service-img {
@@ -821,17 +821,17 @@ ul {
       font-family: "Gotham", Helvetica, Arial, sans-serif;
       text-transform: uppercase;
       margin: 0 0 30px;
-      font-size: 20px;
+      font-size: 1.5vw;
       display: inline-block; }
-      @media only screen and (max-width: 1170px) {
+      @media only screen and (max-width: 1200px) {
         #services-section .service-row .service-column .service-heading {
-          font-size: 2vw; } }
-      @media only screen and (max-width: 660px) {
+          font-size: 1.3vw; } }
+      @media only screen and (max-width: 800px) {
         #services-section .service-row .service-column .service-heading {
-          font-size: 4vw; } }
-      @media only screen and (max-width: 440px) {
+          font-size: 3vw; } }
+      @media only screen and (max-width: 550px) {
         #services-section .service-row .service-column .service-heading {
-          font-size: 16px; } }
+          font-size: 2.5vw; } }
     #services-section .service-row .service-column .service-text {
       font-size: 1.1em;
       margin-bottom: 20px;
@@ -845,7 +845,7 @@ ul {
   font: 100 30px 'Whitney';
   height: 17em;
   flex-flow: column wrap; }
-  @media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 1170px) {
     #skills-section .skills-flex-wrapper {
       display: block;
       height: auto; } }
@@ -853,10 +853,16 @@ ul {
     font-family: "Gotham", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     font-weight: 700;
-    font-size: 1.5vw; }
+    font-size: 1.28vw; }
+    @media only screen and (max-width: 1190px) {
+      #skills-section .skills-flex-wrapper .skills-heading {
+        font-size: 1.18vw; } }
     @media only screen and (max-width: 768px) {
       #skills-section .skills-flex-wrapper .skills-heading {
-        font-size: 18px; } }
+        font-size: 2vw; } }
+    @media only screen and (max-width: 580px) {
+      #skills-section .skills-flex-wrapper .skills-heading {
+        font-size: 1.9vw; } }
     #skills-section .skills-flex-wrapper .skills-heading .sprite {
       width: 35px;
       height: 35px;
@@ -889,22 +895,24 @@ ul {
     @media only screen and (max-width: 1170px) {
       #skills-section .skills-flex-wrapper .flex-item {
         padding-right: 0; } }
-    @media only screen and (max-width: 480px) {
+/*     @media only screen and (max-width: 480px) {
       #skills-section .skills-flex-wrapper .flex-item {
-        padding: 0; } }
-    @media only screen and (max-width: 440px) {
+        padding: 0; } } */
+    @media only screen and (max-width: 550px) {
       #skills-section .skills-flex-wrapper .flex-item {
+        padding: 0;
         display: block; } }
     #skills-section .skills-flex-wrapper .flex-item:nth-child(1) {
       width: 40%;
       max-width: 500px;
       min-height: 450px; }
+      @media only screen and (max-width: 1290px) {
+        #skills-section .skills-flex-wrapper .flex-item:nth-child(1) {
+          width: 100%; } }
       @media only screen and (max-width: 1170px) {
         #skills-section .skills-flex-wrapper .flex-item:nth-child(1) {
-          width: 37%; } }
-      @media only screen and (max-width: 1000px) {
-        #skills-section .skills-flex-wrapper .flex-item:nth-child(1) {
-          width: 45%; } }
+          width: 100%;
+          min-height: 50px } }
       @media only screen and (max-width: 768px) {
         #skills-section .skills-flex-wrapper .flex-item:nth-child(1) {
           width: 100%;
@@ -914,16 +922,16 @@ ul {
       min-height: 151px; }
       @media only screen and (max-width: 1000px) {
         #skills-section .skills-flex-wrapper .flex-item:nth-child(2) {
-          width: 55%; } }
+          width: 100%; } }
       @media only screen and (max-width: 768px) {
         #skills-section .skills-flex-wrapper .flex-item:nth-child(2) {
           width: 100%; } }
     #skills-section .skills-flex-wrapper .flex-item:nth-child(3) {
       min-height: 299px;
       width: 60%; }
-      @media only screen and (max-width: 1000px) {
+      @media only screen and (max-width: 1170px) {
         #skills-section .skills-flex-wrapper .flex-item:nth-child(3) {
-          width: 55%; } }
+          width: 100%; } }
       @media only screen and (max-width: 768px) {
         #skills-section .skills-flex-wrapper .flex-item:nth-child(3) {
           width: 100%; } }
@@ -940,24 +948,26 @@ ul {
       height: 116px;
       line-height: 8;
       font-size: 14px; }
+      @media only screen and (max-width: 1290px) {
+        #skills-section .skills-flex-wrapper .dev-wrapper .dev-item {
+          width: 110px;
+          height: 110px;
+          font-size: 14px;
+          margin: 5px 5px 5px 0;
+          line-height: 7;
+           } }
+      @media only screen and (max-width: 768px) {
+        #skills-section .skills-flex-wrapper .dev-wrapper .dev-item {
+          width: 116px;
+          height: 116px;
+          line-height: 8;
+          margin: 10px 10px 10px 0; } }
       @media only screen and (max-width: 1170px) {
         #skills-section .skills-flex-wrapper .dev-wrapper .dev-item {
           width: 80px;
           height: 80px;
-          font-size: 14px;
-          line-height: 5.5;
-          margin: 5px 5px 5px 0; } }
-      @media only screen and (max-width: 768px) {
-        #skills-section .skills-flex-wrapper .dev-wrapper .dev-item {
-          width: 100px;
-          height: 100px;
-          line-height: 7;
-          margin: 1%; } }
-      @media only screen and (max-width: 480px) {
-        #skills-section .skills-flex-wrapper .dev-wrapper .dev-item {
-          width: 80px;
-          height: 80px;
-          line-height: 5.5; } }
+          font-size: 10px;
+          line-height: 7; } }
   #skills-section .skills-flex-wrapper .design-wrapper {
     display: block; }
     #skills-section .skills-flex-wrapper .design-wrapper .design-item {
@@ -976,11 +986,11 @@ ul {
   vertical-align: top;
   overflow: hidden;
   white-space: nowrap; }
-  @media only screen and (max-width: 440px) {
+/*   @media only screen and (max-width: 760px) {
     #skills-section .check-wrapper .tools-wrapper,
     #skills-section .check-wrapper .knowledge-wrapper {
       display: block;
-      width: 100%; } }
+      width: 100%; } } */
   #skills-section .check-wrapper .tools-wrapper .list,
   #skills-section .check-wrapper .knowledge-wrapper .list {
     margin-top: 30px;
@@ -1775,4 +1785,4 @@ ul {
         .four-oh-four .text-container .text a:hover, .four-oh-four .text-container .text a:focus {
           background: #c74739; }
 
-/*# sourceMappingURL=main.css.map */
+/*# sourceMappingURL=main.css.map 

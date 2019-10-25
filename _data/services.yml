@@ -4,7 +4,7 @@
       sprite: webdev
       text: Through this course, I’ve have learned the recognition and analysis of mathematical patterns. This course emphasis on parametric and non-parametric statistical pattern recognition methods and clustering. My academic projects for this course work focused on applications of image recognition.
 
-    - heading: Deep Learning Approaches for Computer Vision
+    - heading: Deep Learning for Computer Vision
       sprite: ui
       text: Through this course, I learned image formation, features, segmentation, stitching, recognition, motion estimation, and 3D point clouds. The coursework showcased how to model classical 3D geometrical problems using Deep Learning. Various projects were carried out throughout the course based on both conventional and deep learning approaches.
 
