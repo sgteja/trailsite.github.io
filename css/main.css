@@ -256,7 +256,7 @@ ul {
   transition: visibility 0s, opacity 0.5s ease; }
   #dot-nav.active {
     visibility: visible;
-    opacity: 1;
+    opacity: 50;
     transition: visibility 0s, opacity 0.5s ease; }
   @media only screen and (max-width: 768px) {
     #dot-nav {
@@ -280,6 +280,10 @@ ul {
       opacity: 1; }
     #dot-nav a.is-selected .dot {
       background-color: #00b7c7; }
+    #dot-nav a.is-selected .dot-label, #dot-nav a:focus .dot-label {
+      opacity: 1; }
+    #dot-nav a.is-selected span, #dot-nav a:focus span {
+      transform: scale(0.75); }
   #dot-nav .dot {
     position: relative;
     top: 7px;
@@ -893,7 +897,7 @@ ul {
         display: block; } }
     #skills-section .skills-flex-wrapper .flex-item:nth-child(1) {
       width: 40%;
-      max-width: 400px;
+      max-width: 500px;
       min-height: 450px; }
       @media only screen and (max-width: 1170px) {
         #skills-section .skills-flex-wrapper .flex-item:nth-child(1) {
@@ -932,9 +936,9 @@ ul {
       text-align: center;
       margin: 10px 10px 10px 0;
       padding: 0px;
-      width: 100px;
-      height: 100px;
-      line-height: 7;
+      width: 116px;
+      height: 116px;
+      line-height: 8;
       font-size: 14px; }
       @media only screen and (max-width: 1170px) {
         #skills-section .skills-flex-wrapper .dev-wrapper .dev-item {
