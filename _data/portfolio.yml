@@ -29,6 +29,7 @@
   demo: http://sgteja.github.io/reports/FaceSwap.pdf
   description: An end-to-end pipeline of swapping two faces in a video, by using both classical (Dlib library) and deep-learning (<a href="https://arxiv.org/abs/1803.07835" target="_blank">PRNet</a>) methods for getting facial fiducials. The Face Swap in two scenarios is shown, first between two faces in the same video and in second, a face in a video with a face in from given image. The resulting videos can be viewed <a href="https://drive.google.com/drive/folders/1TWO6Hed_34k3yZWGM-GOuf4xCKWST9Er?usp=sharing" target="_blank">here</a>.
   img: FaceSwap
+  video: https://www.youtube.com/embed/hyz17mHsGcM?
   used:
     - thing: Python
     - thing: Tensor-Flow
@@ -53,6 +54,7 @@
   demo: http://sgteja.github.io/reports/LaneDetection.pdf
   description: Lane Detection on a video sequence taken from a moving car. An algorithm was designed to detect lanes on the road and to estimate the road curvature to predict the turns made. The results are in these <a href="https://drive.google.com/open?id=1kwCBzWDV0Uqmww-n54ch6un3r8DlcdMQ" target="_blank">videos</a>.
   img: LaneDetection
+  video: https://www.youtube.com/embed/playlist?list=PLRKLP7hn6Hr5dfSO4_SiTfHtZQOZky42Q&
   used:
     - thing: Python
     - thing: OpenCV
@@ -76,6 +78,7 @@
   demo: http://sgteja.github.io/reports/TrafficSignDetection.pdf
   description: Detection and recognition of the traffic signs are carried out in this project. In the detection stage, a pipeline was made to extract the possible candidates that contained the traffic sign. And the other part was to correctly classify the detected signals using SVM (Support Vector Machine). A video of a moving car converted into the <a href="https://drive.google.com/open?id=1gte9bEAsReCmg1wpBvpFJU3te3nLWyR-" target="_blank">output</a>, in which the signs are identified and labeled accordingly. The SVM was able to classify 62 signs provided correctly with an accuracy of 99.76% on the test data.
   img: TrafficSignDetection
+  video: https://www.youtube.com/embed/KoLAG8vt2PM?
   used: 
     - thing: Python
     - thing: OpenCV
@@ -86,6 +89,7 @@
   code: https://github.com/sgteja/Path-Planning
   description: Via Path Planning, I Implemented the most popular path planning algorithms used in robotics such as A-Star, Dijkstra, and Simple Breadth-First Search. Also, the picture below is from the <a href="https://www.youtube.com/watch?v=ci5iAQYvzLE" target="_blank">implementation</a> of the A-Star algorithm for the differential drive to find the path that the turtle bot had to traverse to reach the goal position while avoiding the obstacles.
   img: PathPlanning
+  video: https://www.youtube.com/embed/ci5iAQYvzLE?
   used: 
     - thing: Python
     - thing: Gazebo

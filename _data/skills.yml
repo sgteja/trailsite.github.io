@@ -15,6 +15,7 @@ tools:
   - item: MATLAB
   - item: ROS
   - item: VRep
+  - item: Git
   - item: Solidworks
   - item: ANSYS
   - item: Latex

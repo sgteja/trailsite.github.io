@@ -6,19 +6,6 @@
       <div class="portfolio-item-wrapper">
         {% for project in site.data.portfolio %}
         <div class="portfolio-row">
-          <div class="screenshots {% if project.title == 'Screentime 2.0' %}screentime{% endif %}">
-            {% if project.title == "Screentime 2.0" %}
-             <!-- <img class="img-{{project.img}}" src="img/portfolio/{{project.img}}/{{project.img}}-1.png" alt="screentime-1"> -->
-            <img class="img-{{project.img}}" src="img/portfolio/{{project.img}}/{{project.img}}-2.png" alt="screentime-2">
-            <img class="img-{{project.img}}" src="img/portfolio/{{project.img}}/{{project.img}}-3.png" alt="screentime-3">
-            <img class="img-{{project.img}}" src="img/portfolio/{{project.img}}/{{project.img}}-4.png" alt="screentime-4">
-            
-            {% else %}
-            <img class="img-lg" src="img/portfolio/{{project.img}}/{{project.img}}.jpg" alt="desktop-screenshot">
-            <!-- <img class="img-md" src="img/portfolio/{{project.img}}/{{project.img}}-tablet.jpg" alt="tablet-screenshot">
-            <img class="img-sm" src="img/portfolio/{{project.img}}/{{project.img}}-mobile.jpg" alt="mobile-screenshot"> -->
-            {% endif %}
-          </div>
           <div class="description-title-container">
             <h2 class="description-title">{{project.title}}</h2>
             <div class="description-buttons">
@@ -31,6 +18,25 @@
             </div>
           </div>
           <p class="portfolio-description">{{project.description}}</p>
+          <div class="screenshots ">
+            <!-- {% if project.title == 'Screentime 2.0' %}screentime{% endif %} -->
+            {% if project.video %}
+             <!-- <img class="img-{{project.img}}" src="img/portfolio/{{project.img}}/{{project.img}}-1.png" alt="screentime-1"> -->
+            <!-- <img class="img-{{project.img}}" src="img/portfolio/{{project.img}}/{{project.img}}-2.png" alt="screentime-2">
+            <img class="img-{{project.img}}" src="img/portfolio/{{project.img}}/{{project.img}}-3.png" alt="screentime-3">
+            <img class="img-{{project.img}}" src="img/portfolio/{{project.img}}/{{project.img}}-4.png" alt="screentime-4"> -->
+            <!-- <video class="img-lg" src="video/TrafficSignDetection.mp4" type="video/mp4" poster="img/portfolio/{{project.img}}/{{project.img}}.jpg"controls autoplay loop>
+            </video>
+             -->
+             <iframe class="video-emb" src="{{project.video}}rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <img class="img-md" src="img/portfolio/{{project.img}}/{{project.img}}.jpg" alt="tablet-screenshot">
+            
+            {% else %}
+            <img class="img-lg" src="img/portfolio/{{project.img}}/{{project.img}}.jpg" alt="desktop-screenshot">
+            <!-- <img class="img-md" src="img/portfolio/{{project.img}}/{{project.img}}-tablet.jpg" alt="tablet-screenshot">
+            <img class="img-sm" src="img/portfolio/{{project.img}}/{{project.img}}-mobile.jpg" alt="mobile-screenshot"> -->
+            {% endif %}
+          </div>
           <div class="used">
             <ul class="used-items">
               {% for item in project.used %}
