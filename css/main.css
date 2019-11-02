@@ -843,8 +843,11 @@ ul {
   display: flex; }
 #skills-section .skills-flex-wrapper {
   font: 100 30px 'Whitney';
-  height: 17em;
+  height: 20em;
   flex-flow: column wrap; }
+  @media only screen and (min-width: 2260px) {
+    #skills-section .skills-flex-wrapper {
+      height: 25em; } }
   @media only screen and (max-width: 1170px) {
     #skills-section .skills-flex-wrapper {
       display: block;
@@ -854,6 +857,9 @@ ul {
     text-transform: uppercase;
     font-weight: 700;
     font-size: 1.28vw; }
+    @media only screen and (min-width: 2260px) {
+      #skills-section .skills-flex-wrapper .skills-heading {
+        font-size: 1vw; } }
     @media only screen and (max-width: 1190px) {
       #skills-section .skills-flex-wrapper .skills-heading {
         font-size: 1.18vw; } }
@@ -906,6 +912,12 @@ ul {
       width: 40%;
       max-width: 500px;
       min-height: 450px; }
+      @media only screen and (min-width: 2260px){
+        #skills-section .skills-flex-wrapper .flex-item:nth-child(1) {
+          max-width: 800px;
+          min-height: 800px;
+        }
+      }
       @media only screen and (max-width: 1290px) {
         #skills-section .skills-flex-wrapper .flex-item:nth-child(1) {
           width: 100%; } }
@@ -927,7 +939,7 @@ ul {
         #skills-section .skills-flex-wrapper .flex-item:nth-child(2) {
           width: 100%; } }
     #skills-section .skills-flex-wrapper .flex-item:nth-child(3) {
-      min-height: 299px;
+      min-height: 151px;
       width: 60%; }
       @media only screen and (max-width: 1170px) {
         #skills-section .skills-flex-wrapper .flex-item:nth-child(3) {
@@ -948,6 +960,14 @@ ul {
       height: 116px;
       line-height: 8;
       font-size: 14px; }
+      @media only screen and (min-width: 2260px){
+        #skills-section .skills-flex-wrapper .dev-wrapper .dev-item{
+          width: 150px;
+          height: 150px;
+          line-height: 8;
+          font-size: 18px;
+        }
+      }
       @media only screen and (max-width: 1290px) {
         #skills-section .skills-flex-wrapper .dev-wrapper .dev-item {
           width: 110px;
@@ -972,7 +992,8 @@ ul {
     display: block; }
     #skills-section .skills-flex-wrapper .design-wrapper .design-item {
       display: inline-block;
-      margin: 10px; }
+      margin: 10px; 
+      }
       @media only screen and (max-width: 1170px) {
         #skills-section .skills-flex-wrapper .design-wrapper .design-item {
           margin: 10px 5px; } }
@@ -999,6 +1020,12 @@ ul {
     #skills-section .check-wrapper .knowledge-wrapper .list .list-item {
       margin: 10px 0;
       font-size: 16px; }
+      @media only screen and (min-width: 2260px){
+        #skills-section .check-wrapper .tools-wrapper .list .list-item,
+        #skills-section .check-wrapper .knowledge-wrapper .list .list-item {
+          font-size: 30px;
+      }
+    }
       #skills-section .check-wrapper .tools-wrapper .list .list-item .item-svg,
       #skills-section .check-wrapper .knowledge-wrapper .list .list-item .item-svg {
         margin-right: 10px;
@@ -1302,11 +1329,11 @@ ul {
       margin: 0; }
     #portfolio-section .portfolio-row .screenshots:after {
       display: block;
-      padding-top: 45.5%;
+      padding-top: 35%;
       content: ""; }
     #portfolio-section .portfolio-row .screenshots.screentime:after {
       display: block;
-      padding-top: 5.5%;
+      /*padding-top: 5.5%;*/
       content: ""; }
       @media only screen and (max-width: 900px) {
         #portfolio-section .portfolio-row .screenshots.screentime:after {
@@ -1317,6 +1344,23 @@ ul {
       @media only screen and (max-width: 480px) {
         #portfolio-section .portfolio-row .screenshots.screentime:after {
           padding-top: 15%; } }
+    #portfolio-section .portfolio-row .screenshots .video-emb{
+      border: 0;
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      border-radius: 2px;
+      box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.75);}
+      #portfolio-section .portfolio-row .screenshots .video-emb:after{
+        content: "";
+        display: block;}
+    #portfolio-section .portfolio-row .screenshots .video-emb {
+      width: 60%;
+      height: 100%;
+      left: 0;
+      z-index: 1; }
+      #portfolio-section .portfolio-row .screenshots .video-emb:after {
+        padding-top: 10%; }
     #portfolio-section .portfolio-row .screenshots .img-lg,
     #portfolio-section .portfolio-row .screenshots .img-md,
     #portfolio-section .portfolio-row .screenshots .img-sm {
@@ -1336,13 +1380,14 @@ ul {
       left: 0;
       z-index: 1; }
       #portfolio-section .portfolio-row .screenshots .img-lg:after {
-        padding-top: 65%; }
+        padding-top: 45%; }
     #portfolio-section .portfolio-row .screenshots .img-md {
-      width: 27%;
-      right: 14%;
+      width: 40%;
+      right: 0%;
+      height: 60%;
       z-index: 2; }
       #portfolio-section .portfolio-row .screenshots .img-md:after {
-        padding-top: 110%; }
+        padding-top: 140%; }
     #portfolio-section .portfolio-row .screenshots .img-sm {
       width: 15%;
       right: 1rem;
