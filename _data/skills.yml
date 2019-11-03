@@ -2,14 +2,7 @@ programming:
   - item: Python
   - item: C++
   - item: C
-
-# design:
-#   - item: sketch
-#   - item: adobe-photoshop
-#   - item: adobe-indesign
-#   - item: adobe-illustrator
-#   - item: invision
-
+  
 tools:
   - item: Tensor Flow
   - item: MATLAB
