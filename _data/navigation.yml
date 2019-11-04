@@ -15,14 +15,18 @@
   number: 3
 
 - section: services
-  title: Course work
+  title: Courses
   number: 4
 
 - section: portfolio
   title: Portfolio
   number: 5
 
+- section: resume_btn
+  title: Resume
+  number: 6
+
 - section: contact
   title: Contact
-  number: 6
+  number: 7
 

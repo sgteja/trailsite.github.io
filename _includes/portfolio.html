@@ -6,7 +6,7 @@
       <div class="portfolio-item-wrapper">
         {% for project in site.data.portfolio %}
         <div class="portfolio-row">
-          <div class="description-title-container">
+          <div class="description-title-container" id="{{project.img}}-project">
             <h2 class="description-title">{{project.title}}</h2>
             <div class="description-buttons">
               {% if project.demo %}

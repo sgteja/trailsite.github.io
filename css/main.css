@@ -597,7 +597,7 @@ ul {
           left: 0;
           height: 100%;
           width: 100%;
-          color: #f2f2f2;
+          color: #ffffff;
           animation-name: reveal-up;
           animation-fill-mode: backwards;
           animation-duration: 0.4s;
@@ -631,7 +631,7 @@ ul {
             font-size: 1.3rem;
             font-weight: 500;
             line-height: 1.5;
-            color: #f2f2f2;
+            color: #ffffff;
             text-transform: uppercase;
             font-family: "Gotham", Helvetica, Arial, sans-serif;
             opacity: 1;
@@ -660,7 +660,7 @@ ul {
             opacity: 1;
             visibility: visible; }
         #intro-section .intro-wrapper .intro-body .scroll-down-wrapper .scroll-down .logo {
-          width: 35px;
+          width: 80px;
           transition: opacity 0.5s ease, visibility 0.5s; }
         #intro-section .intro-wrapper .intro-body .scroll-down-wrapper .scroll-down .scroll-down-text {
           color: #f2f2f2;

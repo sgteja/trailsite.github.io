@@ -6,7 +6,7 @@
 
     - heading: Deep Learning for Computer Vision
       sprite: ui
-      text: Through this course, I learned image formation, features, segmentation, stitching, recognition, motion estimation, and 3D point clouds. The coursework showcased how to model classical 3D geometrical problems using Deep Learning. Various projects were carried out throughout the course based on both conventional and deep learning approaches.
+      text: Through this course, I learned image formation, features, segmentation, stitching, recognition, motion estimation, and 3D point clouds. The coursework showcased how to model classical 3D geometrical problems using Deep Learning. Various <a href="#SFM_classical-project">projects</a> were carried out throughout the course based on both conventional and deep learning approaches.
 
 - row: row2
   services:
