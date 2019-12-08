@@ -5,6 +5,7 @@ programming:
   
 tools:
   - item: Tensor Flow
+  - item: PyTorch
   - item: MATLAB
   - item: ROS
   - item: VRep
