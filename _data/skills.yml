@@ -4,7 +4,9 @@ programming:
   - item: C
   
 tools:
-  - item: Tensor Flow
+  - item: Deep Stream
+  - item: TensorRT
+  - item: Docker
   - item: PyTorch
   - item: MATLAB
   - item: ROS
@@ -17,6 +19,7 @@ tools:
   - item: Computer Vision
 
 electronics:
+  - item: Nvidia Jetson devices
   - item: Arduino
   - item: RaspberryPi
   - item: 8051
